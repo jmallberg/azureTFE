@@ -1,6 +1,6 @@
 variable "name" {
   description = "The name of the resource group. Must be unique on your Azure subscription."
-  #default    = "playground"
+  default    = "playground"
 }
 
 variable "location" {
